@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="ico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/main.js" type="module" defer></script>
+    <title>Conway</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>Conway's Game of Life</h1>
+      <canvas id="game"></canvas>
+      <fieldset id="statePicker">
+        <legend>State</legend>
+        <label>
+          <input type="radio" name="state" value="alive" checked /> alive
+        </label>
+        <label> <input type="radio" name="state" value="dead" /> dead </label>
+      </fieldset>
+      <div id="controls">
+        <button id="next">Next</button>
+      </div>
+    </div>
+  </body>
+</html>

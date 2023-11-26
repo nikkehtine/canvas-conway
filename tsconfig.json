@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "site/js",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["site/**/*.ts"],
+  "exclude": ["node_modules", "site/js"]
+}

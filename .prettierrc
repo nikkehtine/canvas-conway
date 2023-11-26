@@ -1,0 +1,18 @@
+{
+  "tabWidth": 4,
+  "trailingComma": "es5",
+  "semi": true,
+  "singleQuote": false,
+  "quoteProps": "consistent",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": ["*.html", "*.yml", "*.json", ".prettierrc"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}

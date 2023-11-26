@@ -1,0 +1,11 @@
+# Source code
+*.html  text
+*.css   text
+*.js    text
+*.ts    text
+*.txt   text
+*.json  text
+
+# Binary assets
+*.png   binary
+*.ico   binary
